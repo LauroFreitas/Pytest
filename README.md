@@ -17,7 +17,7 @@ A estrutura do projeto é organizada da seguinte forma:
 ```
 codigo/
   ├── Product.py
-testes/
+tests/
   ├── test_product.py
 pytest.ini
 README.md
