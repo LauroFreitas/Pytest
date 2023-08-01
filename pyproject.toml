@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "estudo1"
+version = "5.4.3"
+description = "Teste de Python"
+authors = ["lauroh.sfreitas@gmail.com"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
