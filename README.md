@@ -25,7 +25,7 @@ README.md
 
 - A pasta `codigo` contém o arquivo `Product.py`, que implementa a classe `Product` usada nos testes.
 
-- A pasta `testes` contém o arquivo `test_product.py`, que contém os casos de teste para a classe `Product`.
+- A pasta `tests` contém o arquivo `test_product.py`, que contém os casos de teste para a classe `Product`.
 
 - O arquivo `pytest.ini` é usado para configurar opções específicas do pytest, como marcas, relatórios, etc.
 
