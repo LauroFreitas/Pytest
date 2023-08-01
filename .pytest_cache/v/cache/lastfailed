@@ -1,0 +1,5 @@
+{
+  "tests/test_primeiro_teste.py::test_validar_a_nao_adesao_ao_bonus_para_funcionario_acima_de_1000_de_salario": true,
+  "tests/test_primeiro_teste.py::test_teste": true,
+  "tests/test_primeiro_teste.py": true
+}

@@ -1,0 +1,11 @@
+[
+  "tests/test_primeiro_teste.py::test_primeiro_teste",
+  "tests/test_primeiro_teste.py::test_teste",
+  "tests/test_primeiro_teste.py::test_valida_calculo_idade",
+  "tests/test_primeiro_teste.py::test_validar_a_nao_adesao_ao_bonus_para_funcionario_acima_de_1000_de_salario",
+  "tests/test_primeiro_teste.py::teste_quando_brincadeira_receber_1_entao_deve_retornar_1",
+  "tests/test_primeiro_teste.py::teste_quando_brincadeira_receber_2_entao_deve_retornar_2",
+  "tests/test_primeiro_teste.py::teste_quando_brincadeira_receber_3_entao_deve_retornar_3",
+  "tests/test_primeiro_teste.py::teste_quando_dividir_o_valor_1_pelo_valor_2_resulta_em_5",
+  "tests/test_primeiro_teste.py::teste_quando_multiplicar_o_valor_1_pelo_valor_2_resulta_em_10"
+]
