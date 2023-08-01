@@ -22,3 +22,16 @@ class Product:
     def is_on_sale(self, sale_price):
         """Verifica se o produto está em promoção com base no preço fornecido."""
         return self.price < sale_price
+    
+    def get_total_value(self):
+        """Retorna o valor total do estoque (preço unitário x quantidade)."""
+        total_value = self.price * self.stock_quantity
+        return total_value
+
+    def apply_discount(self, discount_percentage):
+        """Aplica um desconto percentual ao preço do produto."""
+        if 0 <= discount_percentage <= 100:
+            self.price = self.price * (1 - discount_percentage / 100)
+            return f"Desconto de {discount_percentage}% aplicado ao produto '{self.name}'. Novo preço: R${self.price:.2f}"
+        else:
+            return "O desconto deve estar entre 0% e 100%. Nenhum desconto aplicado."
