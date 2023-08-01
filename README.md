@@ -19,15 +19,12 @@ codigo/
   ├── Product.py
 tests/
   ├── test_product.py
-pytest.ini
 README.md
 ```
 
 - A pasta `codigo` contém o arquivo `Product.py`, que implementa a classe `Product` usada nos testes.
 
 - A pasta `tests` contém o arquivo `test_product.py`, que contém os casos de teste para a classe `Product`.
-
-- O arquivo `pytest.ini` é usado para configurar opções específicas do pytest, como marcas, relatórios, etc.
 
 ## Executando os testes
 
@@ -52,7 +49,8 @@ Os seguintes casos de teste são cobertos nos testes:
 1. Teste de adicionar um novo produto e validar se foi adicionado corretamente.
 2. Teste de atualizar a quantidade em estoque de um produto.
 3. Teste de atualizar a quantidade em estoque para um valor inválido e validar a mensagem de erro.
-4. Teste de verificar se o valor total do estoque para um produto cadastrado está correto.
+4. Teste para verificar se a função de aplicar desconto está funcionando corretamente.
+5. Teste para verificar se o valor total do estoque para um produto cadastrado está correto
 
 ## Contribuição
 
